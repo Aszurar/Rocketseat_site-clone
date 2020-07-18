@@ -1,0 +1,98 @@
+body {
+  background: url("../assets/Wallpaper\ LaunchBase\ -\ 1920x1080.svg") no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menu .here a {
+  color: var(--color-orange);
+  border-bottom: 3px solid var(--color-orange);
+}
+
+.links {
+  margin-top: 565px;
+  padding: 30px;
+  text-align: center;
+  border-top: 2px solid #333;
+  background-color: var(--color-purple);
+}
+
+.text p {
+  font-size: 28px;
+  color: var(--color-white);
+  font-weight: bold;
+  max-width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.links strong {
+  font-size: 24px;
+  color: var(--color-white);
+}
+
+form {
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-top: 15px;
+  background: var(--color-white);
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+form div input {
+  font-size: 16px;
+  background-color: var(--color-white);
+  cursor: text;
+  outline: none;
+  width: 300px;
+}
+
+form div button {
+  cursor: pointer;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.links a:hover {
+  border-bottom: 2px solid var(--color-orange);
+  color: var(--color-orange);
+  transition: 800ms;
+}
+
+@media (max-width: 900px) {
+  body {
+    margin-left: 20px;
+    background-position-x: 100vw;
+  }
+
+  body header {
+    align-items: center;
+    text-align: center;
+  }
+
+  #about {
+    position: absolute;
+
+    left: 50%;
+  }
+}

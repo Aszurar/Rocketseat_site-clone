@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap";
+
+:root {
+  --color-orange: rgb(255, 201, 22);
+  --color-orange-card: rgb(253, 149, 31);
+  --color-purple: rgb(113, 89, 193);
+  --color-dark: rgba(113, 89, 193, 0.7);
+  --color-green: rgb(4, 211, 97);
+  --color-white: white;
+  --color-background: rgb(25, 20, 42);
+  --color-black: black;
+  --color-modal-ovarlay: rgba(25, 20, 42, 0.8);
+  --color-modal: rgb(175, 151, 248);
+}
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+header {
+  border-bottom: 1px solid #333;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-purple);
+  width: 100%;
+}
+
+.logo img {
+  margin: 0 20px;
+  padding: 0 36px;
+  border-right: 1px solid var(--color-orange);
+}
+
+header div {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: var(--color-white);
+  margin: 0 16px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--color-orange);
+  border-bottom: 3px solid var(--color-orange);
+  transition: 150ms linear 0s;
+}
+
+.socials {
+  border-left: 1px solid var(--color-orange);
+  margin: 0 20px;
+  padding: 0 36px;
+}
+
+.socials a img {
+  height: 100%;
+  width: auto;
+  margin: 0px 0px 0px 20px;
+}
