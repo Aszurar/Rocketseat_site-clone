@@ -18,7 +18,7 @@ ___
 
 ___
 
-<div align="center" ><img src="hhttps://imgur.com/gallery/uDJSv13" width="600"></div>
+<div align="center" ><img src="https://imgur.com/gallery/uDJSv13" width="600"></div>
 
 ___
 
