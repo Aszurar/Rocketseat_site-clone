@@ -1,0 +1,51 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+    <title>{{item.title}}</title>
+{% endblock %}
+
+{% block visuals %}
+    <link rel="stylesheet" href="/visuals/course.css">
+{% endblock %}
+
+{% block mark %}
+
+    <div>
+        <a href="/">Rocketseat</a>
+    </div>
+
+    <div>
+        <a href="/about">Sobre</a>
+    </div>
+
+    <div>
+        <a href="/courses">Conteúdos</a>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+    <main class="principal">
+        <div class="image-course">
+            <img src="/assets/{{item.title}}.svg" alt="Ícone do {{item.title}}">
+        </div>
+
+        <section class="text">
+            <div class="description-{{item.title}}">
+                <p>{{item.descriptionMain}}</p>
+            </div>
+
+            <div class="subtitle-{{item.title}}">
+                <p>{{item.subtitle}}</p>
+            </div>
+
+            <form action="" class="button">
+                <input type="text" placeholder="Envie seu e-mail!." value="">
+                <a href="http://app.rocketseat.com.br/signup">
+                    <h1 class="confirm-{{item.title}}">
+                        Reserve a minha vaga.</h1>
+                </a>
+            </form>
+        </section>
+    </main>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "layout.njk" %}
+
+{% block title %}
+    <title>Sobre</title>
+{% endblock %}
+
+{% block visuals %}
+    <link rel="stylesheet" href="/visuals/Sobre_Desafio22.css">
+{% endblock %}
+
+{% block mark %}
+
+    <div>
+        <a href="/">{{about.title}}</a>
+    </div>
+
+    <div class="here">
+        <a href="/about">Sobre</a>
+    </div>
+
+    <div>
+        <a href="/courses">Conteúdos</a>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper">
+
+        <img src="{{about.img}}" alt="Imagem da {{about.title}}">
+        <h1>{{about.title}}</h1>
+        <p>{{about.description}}</p>
+    </div>
+
+    <div class="border">
+
+        <form action="" class="technologies">
+            <fieldset>
+                <legend>
+                    <h2>{{about.subtitle}}</h2>
+                </legend>
+
+                <div class="items-grid">
+
+                    {% for item in about.cards %}
+                        <li data-id="{{item}}">
+                            <img src="/assets/{{item}}.svg" alt="Ícone do {{item}}">
+                            <span>{{item}}</span>
+                        </li>
+                    {% endfor %}
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}

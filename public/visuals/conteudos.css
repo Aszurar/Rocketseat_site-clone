@@ -1,0 +1,201 @@
+body {
+  background: var(--color-background);
+  text-decoration: none;
+}
+
+.menu .here a {
+  color: var(--color-orange);
+  border-bottom: 3px solid var(--color-orange);
+}
+
+/* cards */
+.past {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  color: var(--color-white);
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 550px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.card {
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.card__image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0%;
+}
+
+.card__image-container span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+.img__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 145px;
+  margin: 105px 0px 55px;
+}
+
+.card__info p {
+  text-decoration: none;
+  max-width: 270px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.card__about {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card__about p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card__price {
+  color: var(--color-black);
+}
+
+/* card 01 */
+.Starter {
+  position: relative;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  border-radius: 5%;
+  transition: all 0.2s ease 0s;
+  padding: 64px;
+  border: 3px solid var(--color-background);
+}
+
+.Starter .card__image-container span {
+  border: 3px solid var(--color-purple);
+  color: var(--color-purple);
+}
+
+.Starter .card__info p {
+  color: var(--color-purple);
+}
+
+.Starter .card__about {
+  color: var(--color-purple);
+}
+.Starter .card__price {
+  background-color: var(--color-purple);
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.Starter:hover {
+  border: 3px solid var(--color-purple);
+  transition: 750ms;
+}
+
+/* card 02 */
+.Launchbase {
+  position: relative;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  border-radius: 5%;
+  transition: all 0.2s ease 0s;
+  padding: 64px;
+  border: 3px solid var(--color-background);
+}
+
+.Launchbase .card__image-container span {
+  border: 3px solid var(--color-orange-card);
+  color: var(--color-orange-card);
+}
+
+.Launchbase .card__info p {
+  color: var(--color-orange-card);
+}
+
+.Launchbase .card__about {
+  color: var(--color-orange-card);
+}
+.Launchbase .card__price {
+  background-color: var(--color-orange-card);
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.Launchbase:hover {
+  border: 3px solid var(--color-orange-card);
+  transition: 750ms;
+}
+
+.GoStack {
+  position: relative;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  border-radius: 5%;
+  transition: all 0.2s ease 0s;
+  padding: 64px;
+  border: 3px solid var(--color-background);
+}
+
+.GoStack .card__image-container span {
+  border: 3px solid var(--color-green);
+  color: var(--color-green);
+}
+
+.GoStack .card__info p {
+  color: var(--color-green);
+}
+
+.GoStack .card__about {
+  color: var(--color-green);
+}
+.GoStack .card__price {
+  background-color: var(--color-green);
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.GoStack:hover {
+  border: 3px solid var(--color-green);
+  transition: 750ms;
+}

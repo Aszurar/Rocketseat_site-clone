@@ -1,0 +1,141 @@
+body {
+  background: var(--color-dark-light);
+  text-decoration: none;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-course {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.image-course img {
+  width: 400px;
+  height: 300px;
+}
+
+.text {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.description-Starter span {
+  color: var(--color-purple);
+}
+
+.description-Starter p {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.subtitle-Starter {
+  font-size: 20px;
+  line-height: 26px;
+}
+.subtitle-Starter span {
+  font-weight: bold;
+  color: var(--color-black);
+}
+
+.button {
+  color: var(--color-white);
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button input {
+  font-size: 16px;
+  background: var(--color-white);
+  padding: 20px;
+  border-radius: 10px;
+
+  cursor: text;
+  outline: none;
+  width: 300px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.button input + a {
+  margin-left: 10px;
+}
+
+.confirm-Starter {
+  background-color: var(--color-purple);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.button a h1 {
+  color: var(--color-dark-light);
+}
+
+/* launchbase */
+
+.description-Launchbase span {
+  color: var(--color-orange-card);
+}
+
+.description-Launchbase p {
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.subtitle-Launchbase {
+  font-size: 20px;
+  line-height: 26px;
+}
+.subtitle-Launchbase span {
+  font-weight: bold;
+  color: var(--color-orange-card);
+}
+
+.confirm-Launchbase {
+  background-color: var(--color-orange-card);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* GoStack*/
+
+.description-GoStack span {
+  color: var(--color-green);
+}
+
+.description-GoStack p {
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.subtitle-GoStack {
+  font-size: 20px;
+  line-height: 26px;
+}
+.subtitle-GoStack span {
+  font-weight: bold;
+  color: var(--color-green);
+}
+
+.confirm-GoStack {
+  background-color: var(--color-green);
+  padding: 15px;
+  border-radius: 8px;
+}

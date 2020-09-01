@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        {% block title %}{% endblock %}
+
+        <link rel="icon" href="/assets/favicon.ico" type="image/icon"/>
+        <link rel="stylesheet" href="/visuals/menu.css">
+
+        {% block visuals %}{% endblock %}
+
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+
+    <body>
+        <header>
+
+            <div class="logo">
+                <a href="/">
+                    <img src="/assets/rocketseat.png" alt="Rocketseat">
+                </a>
+            </div>
+
+            <div class="menu">
+
+                {% block mark %}{% endblock %}
+
+                <div>
+                    <a href="https://blog.rocketseat.com.br/" target="_blank">Blog</a>
+                </div>
+
+            </div>
+
+            <div class="socials">
+
+                <a href="https://www.facebook.com/rocketseat/" target="_blank">
+                    <i class='fab'>&#xf39e;</i>
+                </a>
+
+                <a href="https://www.linkedin.com/school/rocketseat/?originalSubdomain=br" target="_blank">
+                    <i class='fab'>&#xf08c;</i>
+                </a>
+
+                <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br" target="_blank">
+                    <i class='fab'>&#xf16d;</i>
+                </a>
+
+                <a href="https://twitter.com/rocketseat" target="_blank">
+                    <i class='fab'>&#xf099;</i>
+                </a>
+
+                <a href="https://youtube.com/rocketseat" target="_blank">
+                    <i class='fab'>&#xf167;</i>
+                </a>
+
+            </div>
+
+        </header>
+
+        {% block content %}{% endblock %}
+
+    </body>
+
+</html>
