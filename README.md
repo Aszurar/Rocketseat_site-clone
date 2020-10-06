@@ -1,4 +1,4 @@
-# Rocketseat_site-clone
+# Rocketseat_site-clone | LaunchBase
 Site clone da Rocketseat sendo criado pelos desafios ao longo da 2º fase do **Bootcamp LaunchBase da Rocketseat** e sendo atualizado com o passar das fases do curso com novas features.
 ___
 <h2 align="center">Rocketseat - Clone</h2>
